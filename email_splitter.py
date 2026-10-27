@@ -12,6 +12,7 @@ def is_valid(email) :
         return email
 
 def main() :
+    print("Press 'q' to quite.")
     while True :
         email = input("Email: ")
         if email == "q" :
